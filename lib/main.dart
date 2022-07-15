@@ -115,7 +115,7 @@ class _HomeState extends State<Home> {
     );
   }
 }
-Widget buildTexField(String label, String prefix, TextEditingController c, Function (String)f){
+buildTexField(String label, String prefix, TextEditingController c, Function (String)f){
   return  TextField(
     controller: c,
     decoration: InputDecoration(
